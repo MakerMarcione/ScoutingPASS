@@ -15,26 +15,16 @@ html, body{
     background-color: black;
 }
 
-#prematch_table, #postmatch_table {
+#prematch_table, #postmatch_table, #auton_table, #endgame_table, #teleop_table {
 
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-    text-align: center;
-    color: white;
+    text-align: right;
+    color: rgb(black);
     font-size: 13px;
     font-style: bold;
     letter-spacing: 1px;
     border-width: 4px;
-    border-color: white;
-}
-
-#auton_table, #endgame_table, #teleop_table {
-    font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-    color: black;
-    font-size: 13px;
-    font-style: bold;
-    letter-spacing: 1px;
-    border-width: 4px;
-    border-color: black;
+    border-color: rgb(65, 72, 199);
 }
 
 .button {
@@ -53,9 +43,9 @@ html, body{
     border-color: white;
 }
 
-#prematchHeader1, #prematchHeader2{
-    color: white;
-    border-color: white;
+#prematchHeader1, #prematchHeader2, #sections{
+    color: rgb(65, 72, 199);
+    border-color: rgb(65, 72, 199);
     border-width: 4px;
 }
 
