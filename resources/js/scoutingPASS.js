@@ -933,6 +933,7 @@ function clearForm() {
 
     // Robot
     resetRobot()
+    swipePage(-1)
   }
 
   // Clear XY coordinates
