@@ -125,6 +125,21 @@ var config_data = `
     { "name": "Scored in<br>Opponent<br>Processor",
       "code": "opp",
       "type": "bool"
+    },
+    { "name": "Defensive Performance",
+      "code": "def",
+      "type": "radio",
+      "choices": {
+        "ed": "Poor Defensive Skills<br>",
+        "md": "Average Defensive Skills<br>",
+        "ad": "Skilled Defense<br>",
+        "x": "Not Attempted"
+        },
+        "defaultValue": "x"
+    },
+    { "name": "Died/Immobilized",
+      "code": "die",
+      "type": "bool"
     }
   ],
   "endgame": [
@@ -159,13 +174,16 @@ var config_data = `
       },
       "defaultValue":"2"
     },
-    { "name": "Died/Immobilized",
-      "code": "die",
-      "type": "bool"
-    },
-    { "name": "Tippy<br>(almost tipped over)",
-      "code": "tip",
-      "type": "bool"
+    { "name": "Penalties Drawn",
+      "code": "pnl",
+      "type": "radio",
+      "choices": {
+        "1": "1-2 Penalties<br>",
+        "2": "3-4 Penalties<br>",
+        "3": "5+ Penalties<br>",
+        "x": "None/Not counted"
+        },
+        "defaultValue":"x"
     },
     { "name": "Dropped Coral (>2)",
       "code": "dc",
@@ -175,7 +193,7 @@ var config_data = `
       "code": "da",
       "type": "bool"
     },
-    { "name": "Make good<br>alliance partner?",
+    { "name": "Viable<br>Alliance Partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "all",
       "type": "bool"
