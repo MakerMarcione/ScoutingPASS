@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025ilpe",
+      "defaultValue": "2025mimcc",
       "required": "true"
     },
     { "name": "Match Level",
@@ -189,7 +189,7 @@ var config_data = `
       "code": "dc",
       "type": "bool"
     },
-    { "name": "Dropped Algae (>2)",
+    { "name": "Removes Algae from Reef",
       "code": "da",
       "type": "bool"
     },
